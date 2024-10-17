@@ -19,7 +19,7 @@ const editPet = async (id) => {
     return petEdit;
 };
 
-const Card = ({ name, id, photo, refreshPets }) => {
+const Card = ({ name, id, photo,age, refreshPets }) => {
     const navigate = useNavigate();
 
     const handleDetailsClick = () => {
